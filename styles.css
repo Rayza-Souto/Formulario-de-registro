@@ -39,6 +39,7 @@ select {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+    min-height: 2em;
 }
 
 .inline {
@@ -56,5 +57,10 @@ textarea {
     border-color: #0a0a23;
     /*remover a borda padrão do input e textarea*/
     color: #ffffff;
-    min-height: 2em
+}
+
+
+input[type="submit"] {
+  display: block;
+  width: 60%
 }
