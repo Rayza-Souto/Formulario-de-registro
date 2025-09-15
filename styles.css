@@ -42,5 +42,10 @@ select {
 }
 
 .inline {
-  width: unset;  /*remove o width 100% do input radio*/
+    width: unset;
+    /*remove o width 100% do input radio*/
+    margin-top: 0;
+    margin-right: 0.5em;
+    margin-bottom: 0;
+    margin-left: 0;
 }
