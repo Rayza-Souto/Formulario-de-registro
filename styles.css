@@ -45,11 +45,16 @@ select {
     width: unset;
     /*remove o width 100% do input radio*/
     margin: 0 0.5em 0 0;
-    vertical-align: middle; /*alinha o input com o texto do label*/
+    vertical-align: middle;
+    /*alinha o input com o texto do label*/
 }
 
-input, textarea{
-  background-color: #0a0a23;
-  border: 1px solid;
-  border-color: #0a0a23
-} /*remover a borda padrão do input e textarea*/
+input,
+textarea {
+    background-color: #0a0a23;
+    border: 1px solid;
+    border-color: #0a0a23;
+    /*remover a borda padrão do input e textarea*/
+    color: #ffffff;
+    min-height: 2em
+}
